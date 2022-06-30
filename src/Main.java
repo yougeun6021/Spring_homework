@@ -17,6 +17,7 @@ public class Main {
             System.out.print("변경할 속도를 입력해주세요:");
             int speed = sc.nextInt();
             bus.change_speed(speed);
+        }
 
 
 //              택시 정보 확인
@@ -73,4 +74,3 @@ public class Main {
 //            }
         }
     }
-}
