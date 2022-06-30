@@ -66,7 +66,7 @@ public class Bus {
             System.out.println("현재 승객수가 최대 승객수를 넘을 수 없습니다.");
         }else{
             this.current_passenger = current_passenger;
-            System.out.println("현재 승객수:"+this.current_passenger);
+            System.out.println("현재 승객수:"+getCurrent_passenger());
         }
 
     }
@@ -98,7 +98,7 @@ public class Bus {
         }else{
             this.current_Speed = current_Speed;
         }
-        System.out.println("현재 속도:"+this.current_Speed);
+        System.out.println("현재 속도:"+getCurrent_Speed());
     }
 
     public void setBus_status(Bus_status bus_status) {
